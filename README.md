@@ -117,5 +117,3 @@ El análisis de abandono se realiza utilizando los siguientes parámetros:
 El script calcula el abandono basado en estos parámetros y proporciona visualizaciones para entender los patrones de abandono.
 
 ---
-
-Este README proporciona una visión general de la estructura y los procesos del proyecto. Para obtener información más detallada, consulte los archivos de script individuales y sus comentarios.
