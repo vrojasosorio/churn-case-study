@@ -1,94 +1,104 @@
 # Table A (customer_profile)
-col_a1: customer_id
-col_a2: tax_id
-col_a3: account_manager_id
-col_a4: branch_id
-col_a5: registration_date
+table_a:
+  col_a1: customer_id
+  col_a2: tax_id
+  col_a3: account_manager_id
+  col_a4: branch_id
+  col_a5: registration_date
 
 # Table B (customer_details)
-col_b1: tax_id
-col_b2: customer_id
-col_b3: industry_sector
-col_b4: business_activity
-col_b5: customer_location
+table_b:
+  col_b1: tax_id
+  col_b2: customer_id
+  col_b3: industry_sector
+  col_b4: business_activity
+  col_b5: customer_location
 
 # Table C (service_points)
-col_c1: service_point_id
-col_c2: address
-col_c3: city
-col_c4: location_details
-col_c5: region
-col_c6: service_point_type
-col_c7: active_status
-col_c8: deactivation_date
-col_c9: latitude
-col_c10: longitude
+table_c:
+  col_c1: service_point_id
+  col_c2: address
+  col_c3: city
+  col_c4: location_details
+  col_c5: region
+  col_c6: service_point_type
+  col_c7: active_status
+  col_c8: deactivation_date
+  col_c9: latitude
+  col_c10: longitude
 
 # Table D (customer_account_status)
-col_d1: customer_id
-col_d2: account_status
-col_d3: last_status_update
-col_d4: account_creation_date
-col_d5: billing_status
+table_d:
+  col_d1: customer_id
+  col_d2: account_status
+  col_d3: last_status_update
+  col_d4: account_creation_date
+  col_d5: billing_status
 
 # Table E (user_account_link)
-col_e1: user_id
-col_e2: customer_id
-col_e3: user_role
-col_e4: user_link_creation_date
-col_e5: user_link_update_date
+table_e:
+  col_e1: user_id
+  col_e2: customer_id
+  col_e3: user_role
+  col_e4: user_link_creation_date
+  col_e5: user_link_update_date
 
 # Table F (asset_registry)
-col_f1: asset_id
-col_f2: asset_type
+table_f:
+  col_f1: asset_id
+  col_f2: asset_type
 
 # Table G (customer_asset_details)
-col_g1: customer_id
-col_g2: customer_asset_id
-col_g3: asset_identifier
-col_g4: asset_category
-col_g5: asset_brand
-col_g6: asset_status
-col_g7: asset_model
-col_g8: asset_last_update
-col_g9: asset_registration_date
-col_g10: asset_id
+table_g:
+  col_g1: customer_id
+  col_g2: customer_asset_id
+  col_g3: asset_identifier
+  col_g4: asset_category
+  col_g5: asset_brand
+  col_g6: asset_status
+  col_g7: asset_model
+  col_g8: asset_last_update
+  col_g9: asset_registration_date
+  col_g10: asset_id
 
 # Table H (user_asset_link)
-col_h1: user_id
-col_h2: customer_id
-col_h3: customer_asset_id
-col_h4: primary_asset_flag
-col_h5: asset_link_date
+table_h:
+  col_h1: user_id
+  col_h2: customer_id
+  col_h3: customer_asset_id
+  col_h4: primary_asset_flag
+  col_h5: asset_link_date
 
 # Table I (transaction_summary)
-col_i1: transaction_id
-col_i2: customer_id
-col_i3: user_id
-col_i4: payment_method_id
-col_i5: transaction_location_id
-col_i6: transaction_reference
-col_i7: total_amount_paid
-col_i8: document_type
-col_i9: payment_type_id
-col_i10: transaction_total_value
-col_i11: transaction_date
-col_i12: transaction_creation_timestamp
-col_i13: transaction_processing_timestamp
-col_i14: payment_method_name
-col_i15: payment_subtype
-col_i16: asset_id
+table_i:
+  col_i1: transaction_id
+  col_i2: customer_id
+  col_i3: user_id
+  col_i4: payment_method_id
+  col_i5: transaction_location_id
+  col_i6: transaction_reference
+  col_i7: total_amount_paid
+  col_i8: document_type
+  col_i9: payment_type_id
+  col_i10: transaction_total_value
+  col_i11: transaction_date
+  col_i12: transaction_creation_timestamp
+  col_i13: transaction_processing_timestamp
+  col_i14: payment_method_name
+  col_i15: payment_subtype
+  col_i16: asset_id
 
 # Table J (transaction_line_items)
-col_j1: transaction_id
-col_j2: line_item_id
-col_j3: product_id
-col_j4: quantity
-col_j5: line_item_total
-col_j6: product_name
-col_j7: loyalty_program
-col_j8: line_item_timestamp
-col_j9: total_discount_amount
-col_j10: unit_price
-col_j11: unit_discount
-col_j12: transaction_creation_timestamp
+table_j:
+  col_j1: transaction_id
+  col_j2: line_item_id
+  col_j3: product_id
+  col_j4: quantity
+  col_j5: line_item_total
+  col_j6: product_name
+  col_j7: loyalty_program
+  col_j8: line_item_timestamp
+  col_j9: total_discount_amount
+  col_j10: unit_price
+  col_j11: unit_discount
+  col_j12: transaction_creation_timestamp
